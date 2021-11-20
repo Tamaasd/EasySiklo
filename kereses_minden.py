@@ -23,7 +23,7 @@ def keresés_minden_fájlban():
         g=0
         u=1
         összes_file = os.listdir()
-        txt = "\n\tKérek egy nevet:"
+        txt = "\n\tirjon be egy nevet: "
         name=input(txt)
 
 
@@ -45,7 +45,7 @@ def keresés_minden_fájlban():
                         
                         if (elemek == name ):
                             while ( u==1):
-                                txt="\tForint vagy Euro? [f/e]:"
+                                txt="\tForint vagy Euro? [f/e]: "
                                 pénz=input(txt)
                                 if (pénz == "f"):
                                     print("\n\tAz elem a/az " ,összes_file[k] ,"-ben található:" )
