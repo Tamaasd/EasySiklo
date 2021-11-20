@@ -2,7 +2,7 @@ import os.path
 
 def creat_newf():
     while True:
-        uj_fajl_nev=input("\n\tÍrja be az új fájl nevét: ")
+        uj_fajl_nev=input("\n\tÍrja be az új fájl nevét, és kiterjesztését: ")
         if os.path.isfile(uj_fajl_nev):
             
             
