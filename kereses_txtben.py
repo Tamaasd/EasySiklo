@@ -26,7 +26,7 @@ def keresés_txt():
 
         nemtalált_file=1
         file_találat=0
-        txt="\n\tKérek egy fájl nevet:"
+        txt="\n\tIrjon be egy fájl nevet: "
         nev_1=input(txt)+".txt"
 
         if (nev_1 == "vissza.txt"):
@@ -43,7 +43,7 @@ def keresés_txt():
         
             if file_találat == 2:
                 while(g==1):
-                    txt = "\tKérek egy nevet:"                               
+                    txt = "\tIrjon be egy nevet: "                               
                     name=input(txt)
                 
                     inputFile_as_string( nev_1, lista)
@@ -58,7 +58,7 @@ def keresés_txt():
                             
                             if (elemek == name ):
                                 while ( u==1):
-                                    txt="\tForint vagy Euro? [f/e]:"
+                                    txt="\tForint vagy Euro? [f/e]: "
                                     pénz=input(txt)
                                     if (pénz == "f"):
                                         print("\n\t" , elem_listák[b], "-" , str(elem_listák[b+1]) ,"Forint")
