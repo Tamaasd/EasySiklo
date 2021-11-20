@@ -10,11 +10,8 @@ def inputFile_as_string(file, lista):
     f.close()
     return
     
-
 def modositas():
-    lista=[]
-    
-    
+    lista=[] 
     r=1
     while(r==1):
         lista=[]
@@ -22,11 +19,11 @@ def modositas():
         g=1
         u=1
         c=0
-
+        o=0
         nemtalált_file=1
         file_találat=0
 #######################################################################
-        txt="\n\tKérek egy fájl nevet:"
+        txt="\n\tIrjon be egy fájl nevet: "
         nev_1=input(txt)+".txt"
 #########################################################################
         if (nev_1 == "vissza.txt"):
@@ -44,13 +41,13 @@ def modositas():
                 c=0
                 while(x != 6):
 
-                    txt= "\tMit szeretnél modosítani?[n/p]:"
+                    txt= "\n\tMit szeretne modosítani?[n/p]: "
                     d= input(txt)
                     if(  d == "n"):
             ##############################################################
                         c=0
                         while(c != 1):
-                            txt="\tKérek egy nevet[/vissza]:" 
+                            txt="\tIrjon be egy nevet: " 
                             name=input(txt)
                             #print(lista)
                             
@@ -60,7 +57,7 @@ def modositas():
                                     if (b == i[0]):
                                         if (name == b):
             ##############################################################   Megvan a név                        txt="\tKérek egy új nevet:"
-                                            txt1="\tKérek egy új nevet:"
+                                            txt1="\tIrjon be egy új nevet: "
                                             ujnev=input(txt1)
                                             lista[e][f]=ujnev
                                             print("\tKész")
@@ -72,18 +69,14 @@ def modositas():
 
                             if(c != 1):
                                 txt= "\tNincs ilyen név\n" 
-                                print(txt) 
-
+                                print(txt)             
                             
-                              
-                            
-            ################################################################# Név nincs módodsítva 
-                                    
+            ################################################################# Név nincs módodsítva                               
                     elif(d == "p"):
                         o=0
                         while(o != 1):
                             c=0
-                            txt="\tKérek egy nevet[/vissza]:"
+                            txt="\tIrjon be egy nevet: "
                             name=input(txt)
             ######################################################
                             for e , i in enumerate(lista):
@@ -92,11 +85,11 @@ def modositas():
                                         if (name == b):
             ###################################################### Megvan a név                                    
                                             while (c != 1):
-                                                txt1="\tEuro vagy Forint?[e/f/vissza]:"
+                                                txt1="\tEuro vagy Forint?[f/e]: "
                                                 q = input(txt1)
                                                 ###############Euró
                                                 if(q == "e"):
-                                                    txt="\tKérek egy új árat:"
+                                                    txt="\tIrjon be egy új árat: "
                                                     ujar=int(input(txt))/300
                                                     lista[e][f+1]= ujar
                                                     print("\tKész")
@@ -106,7 +99,7 @@ def modositas():
 
                                                 ###################Ft
                                                 elif(q == "f"):
-                                                    txt="\tKérek egy új árat:"
+                                                    txt="\tIrjon be egy új árat: "
                                                     ujar=input(txt)
                                                     lista[e][f+1]=ujar
                                                     print("\tKész")
@@ -128,7 +121,7 @@ def modositas():
                                             c=0
                             
                             if(c != 1 and o !=1 ):
-                               print("\tNem értem")
+                               print("\tNem értem\n")
                    
                     
 ##############################################################################                    
@@ -137,9 +130,8 @@ def modositas():
                         x=6            
                                                     #"mit szeretnél modosítani"
                     else: 
-                        txt2= "\tNincs ilyen\n"
+                        txt2= "\tNem értem"
                         print(txt2)
-
 
                     if(c == 1 or o==1):
                             ff= open(nev_1, "w")
