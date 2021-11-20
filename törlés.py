@@ -9,7 +9,7 @@ def törlés():
         lista=[]
         ll=0
         kk=0
-        txt="\n\tÍrd be a fájl nevét:"
+        txt="\n\tÍrja be a fájl nevét:"
         file=input(txt)+".txt"
         li = os.listdir()
         for i in li:
@@ -29,12 +29,12 @@ def törlés():
                 n = 0
                 c = 0
                 while c == 0:
-                    item = input("\tÍrd be a törölni kívánt elemet: ")           
+                    item = input("\n\tÍrja be a törölni kívánt elemet: ")           
                     for e, i in enumerate(lista):
                         for l, t in enumerate(i): 
                             if (t == item):
                        
-                                biztos = input("\tBiztosan törölni szeretnéd? [i/n]")
+                                biztos = input("\tBiztosan törölni szeretné?[i/n]")
                                 if "i" == biztos:                           
                                     c = 1                            
                                     lista.pop(e)                                                           
@@ -65,7 +65,7 @@ def törlés():
                                 n = 1
 
                     if m != 1 and n <= 1:                                                                                                                                   
-                        print("\tNincs ilyen elem, próbáld újra!\n")
+                        print("\tNincs ilyen elem\n")
                         
         elif( file == "vissza.txt"):
             h = 0
