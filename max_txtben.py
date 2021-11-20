@@ -85,4 +85,4 @@ def txt_legnagyobb():
                     else:
                         print("\tNem értem\n")       
 
-txt_legnagyobb()
+#txt_legnagyobb()

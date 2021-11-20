@@ -152,7 +152,7 @@ def modositas():
 
             ################################################################# Ár nincs módodsítva 
 
-modositas()
+#modositas()
     
 
 

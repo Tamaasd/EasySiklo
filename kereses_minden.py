@@ -75,7 +75,7 @@ def keresés_minden_fájlban():
         elif(g<1):
             print(txt1)
 
-keresés_minden_fájlban()                          
+#keresés_minden_fájlban()                          
 
 
 

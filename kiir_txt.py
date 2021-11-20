@@ -97,4 +97,4 @@ def kiir_txt():
 
             else:
                 print("\tNincs ilyen file")
-kiir_txt()
+#kiir_txt()

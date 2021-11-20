@@ -81,4 +81,4 @@ def kiir_mind():
             else:
                 print("\tNem értem")
 
-kiir_mind()
+#kiir_mind()

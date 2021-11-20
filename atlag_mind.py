@@ -55,4 +55,4 @@ def atlag_mindenben():
             else:
                 print("\tNem értem")      
                 
-atlag_mindenben()
+#atlag_mindenben()

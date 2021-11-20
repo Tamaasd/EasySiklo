@@ -84,4 +84,4 @@ def inputFile_as_string(file, lista):
 
 
 #main
-törlés()
+#törlés()

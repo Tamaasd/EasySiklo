@@ -13,4 +13,4 @@ def addPainting():
     print("\tMentve\n")
     input("\tMenübe való vissza téréshez nyomjon Entert!\n")
 
-addPainting()
+#addPainting()
