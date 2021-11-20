@@ -159,7 +159,8 @@ def modositas():
                 print(txt)
 
             ################################################################# Ár nincs módodsítva 
-    
+
+modositas()
     
 
 

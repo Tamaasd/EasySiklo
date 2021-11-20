@@ -90,7 +90,7 @@ def keresés_txt():
             else:
                 print("\tNincs ilyen fájl")
 
-#keresés_txt()
+keresés_txt()
             
        
            

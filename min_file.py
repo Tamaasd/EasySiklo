@@ -61,7 +61,7 @@ def min_mindenben():
             else:
                 print("\tNem értem")       
 
-#min_mindenben()
+min_mindenben()
 
 
         

@@ -61,7 +61,7 @@ def max_mindenben():
             else:
                 print("\tNem értem")       
 
-#max_mindenben()
+max_mindenben()
 
 
         

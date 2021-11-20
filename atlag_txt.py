@@ -85,4 +85,4 @@ def atlag_txt():
         else:
             print("\tNincs ilyen fájl")   
 
-#atlag_txt()
+atlag_txt()

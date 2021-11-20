@@ -85,4 +85,4 @@ def min_txt():
 
                     else:
                         print("\tNem értem\n")       
-#min_txt() 
+min_txt() 

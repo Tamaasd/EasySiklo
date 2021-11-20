@@ -16,4 +16,4 @@ def creat_newf():
             break
     input("\tMenübe való vissza téréshez nyomj Entert!")
 
-#creat_newf()   
+creat_newf()   
