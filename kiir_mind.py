@@ -45,7 +45,7 @@ def kiir_mind():
 
 
         while(r==1):
-            txt2="\n\tForint vagy Euro?[f/e]:"
+            txt2="\n\tForint vagy Euro?[f/e]: "
             pénz=input(txt2)
 
             if(pénz=="f"):
