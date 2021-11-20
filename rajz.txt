@@ -1,0 +1,6 @@
+lava;660000
+corridors;990000
+Cloud;19500
+goldentouch;2100000
+greennature;27000
+kovek;210000

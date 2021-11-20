@@ -1,0 +1,3 @@
+kutya;1234
+macska;5678
+kecske;9123

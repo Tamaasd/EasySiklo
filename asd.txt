@@ -1,0 +1,3 @@
+medve;123
+diszno;456
+ember;789
