@@ -27,7 +27,7 @@ def atlag_txt():
 
         nemtalált_file=1
         file_találat=0
-        txt="\n\tKérek egy fájl nevet:"
+        txt="\n\tIrjon be egy fájl nevet: "
         nev_1=input(txt)+".txt"
 
         if (nev_1 == "vissza.txt"):
@@ -64,12 +64,12 @@ def atlag_txt():
         if u==0 :
             x=1
             while(x==1):
-                txt2="\n\tFt/Euró?[f/e]:"
+                txt2="\n\tFt vagy Euro?[f/e]: "
                 pénz=input(txt2)
                 if(pénz=="f"):
                     atlag=sum(lista) / len(lista)
                     #print(atlag)
-                    print("\n\tÁtlag:",atlag, "Forint\n"  )
+                    print("\n\tÁtlag:",atlag, "Forint"  )
                     x=0
                 
                 elif(pénz=="e"):
