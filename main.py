@@ -25,20 +25,20 @@ def inputFile_as_string(file, lista):
 def main():
     x = 0
     while (x==0):
-        txt="\tFájl kezelés\n\tMinden fájl kezelés\n\t[f/m]:"
+        txt="\tFájl kezelés\n\tMinden fájl kezelés\n\tMelyiket választja?[f/m]: "
         melyik=input(txt)
        
         y=0   
         while(y==0):
 ################################################################################################            
             if(melyik== "f"):
-                txt1="\tFájlban:\n\t-Keresés\n\t-Mindegyik\n\t-Legnagyobb\n\t-Legkisebb\n\t-Átlag\n\t[s/all/max/min/atlag]:"
+                txt1="\tFájlban:\n\t-Keresés\n\t-Mindegyik\n\t-Legnagyobb\n\t-Legkisebb\n\t-Átlag\n\tMelyiket választja?[keres/mind/max/min/atlag]: "
                 válasz=input(txt1)
 
-                if(válasz=="s"):
+                if(válasz=="keres"):
                     keresés_txt()
 
-                elif(válasz=="all"):
+                elif(válasz=="mind"):
                     kiir_txt()
                 
                 elif(válasz=="max"):
@@ -55,13 +55,13 @@ def main():
                     print("\tNem értem\n")
 ####################################################################################################
             elif(melyik=="m"):
-                txt2="\tMinden fájlban:\n\t-Keresés\n\t-Mindegyik\n\t-Legnagyobb\n\t-legkisebb\n\t-Átlag\n\t[s/all/max/min/atlag]:"
+                txt2="\tMinden fájlban:\n\t-Keresés\n\t-Mindegyik\n\t-Legnagyobb\n\t-legkisebb\n\t-Átlag\n\tMelyiket választja?[keres/mind/max/min/atlag]:"
                 válasz=input(txt2)
 
-                if(válasz=="s"):
+                if(válasz=="keres"):
                     keresés_minden_fájlban()
 
-                elif(válasz=="all"):
+                elif(válasz=="mind"):
                     kiir_mind()
 
                 elif(válasz=="max"):
