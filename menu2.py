@@ -9,14 +9,15 @@ from main import main
 
 
 def f1(label):
-    print(label)
+    #print(label)
     input_words=""
     while True:
         input_words=input("""\n\t1.Új fájl létrehozása
 \t2.Festménynév és ár hozzáadása
 \t3.Módosítás
 \t4.Keresés/Fájlok megtekintése
-\t5.Törlés:\n\t """)   
+\t5.Törlés
+\tMelyiket választja?: """)   
 
         
         if input_words=="1":
