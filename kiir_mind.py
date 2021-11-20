@@ -79,6 +79,6 @@ def kiir_mind():
                 r=0
 
             else:
-                print("\tNem értem\n")
+                print("\tNem értem")
 
 kiir_mind()
