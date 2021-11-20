@@ -33,7 +33,7 @@ def kiir_txt():
 
         nemtalált_file=1
         file_találat=0
-        txt="\n\tKérek egy fájl nevet:"
+        txt="\n\tIrjon be egy fájl nevet: "
         nev_1=input(txt)+".txt"
 
         if (nev_1 == "vissza.txt"):
@@ -59,7 +59,7 @@ def kiir_txt():
 
 
                         while(r==1):
-                            txt2="\tForint/Euro?[f/e]:"
+                            txt2="\tForint vagy Euro?[f/e]: "
                             pénz=input(txt2)
 
                             if(pénz=="f"):
