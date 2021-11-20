@@ -46,7 +46,7 @@ def min_mindenben():
     if u==0 :
         x=1
         while(x==1):
-            txt2="\n\tForint vagy Euro?[f/e]:"
+            txt2="\n\tForint vagy Euro?[f/e]: "
             pénz=input(txt2)
             if(pénz=="f"):
                 print("\n\tA legkisebb elem: ", lista[0][0] , "-", lista[0][1], "Forint -a/az", filename , "-ben\n" )
