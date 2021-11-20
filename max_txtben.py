@@ -26,7 +26,7 @@ def txt_legnagyobb():
         összes_file = os.listdir()
         nemtalált_file=1
         file_találat=0
-        txt="\n\tKérek egy fájl nevet:"
+        txt="\n\tIrjon be egy fájl nevet: "
         nev_1=input(txt)+".txt"
 
         if (nev_1 == "vissza.txt"):
@@ -70,14 +70,14 @@ def txt_legnagyobb():
             if u==0 and q==0 :
                 x=1
                 while(x==1):
-                    txt2="\tForint vagy Euro?[f/e]:"
+                    txt2="\tForint vagy Euro?[f/e]: "
                     pénz=input(txt2)
                     if(pénz=="f"):
                         print("\n\tA legnagyobb elem: ", lista[0][0] , "-", lista[0][1], "Forint")
                         x=0
                     elif(pénz=="e"):
                         eu=int(lista[0][1])/300
-                        print("\t\nA legnagyobb elem: ", lista[0][0] , "-", eu , "Euro")
+                        print("\n\tA legnagyobb elem: ", lista[0][0] , "-", eu , "Euro")
                         x=0                
                     elif(pénz=="vissza"):
                         x=0
