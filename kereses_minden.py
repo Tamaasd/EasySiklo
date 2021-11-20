@@ -48,12 +48,12 @@ def keresés_minden_fájlban():
                                 txt="\tForint vagy Euro? [f/e]:"
                                 pénz=input(txt)
                                 if (pénz == "f"):
-                                    print("\t\nAz elem a/az " ,összes_file[k] ,"-ben található:" )
+                                    print("\n\tAz elem a/az " ,összes_file[k] ,"-ben található:" )
                                     print("\t",elem_listák[b], "-" , str(elem_listák[b+1]) ,"Forint")
                                     u=0
                                 
                                 elif(pénz == "e"):
-                                    print("\t\nAz elem a/az " ,összes_file[k] ,"-ben található:" )
+                                    print("\n\tAz elem a/az " ,összes_file[k] ,"-ben található:" )
                                     print("\t",elem_listák[b], "-" , str( int(elem_listák[b+1]) /300 ) , "Euro")
                                     u=0
 
