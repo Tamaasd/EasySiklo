@@ -17,6 +17,7 @@ def f1(label):
 \t3.Módosítás
 \t4.Keresés/Fájlok megtekintése
 \t5.Törlés
+\tExit
 \tMelyiket választja?: """)   
 
         
@@ -30,10 +31,10 @@ def f1(label):
             main()
         elif input_words=="5":
             törlés()
-        elif input_words=="vege":
+        elif input_words=="exit":
             break
         else:
-            print("\tKérlek probáld újra!")
+            print("\tKérem probálja újra!")
 
 
 f1("Program")

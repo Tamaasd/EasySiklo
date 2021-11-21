@@ -25,7 +25,7 @@ def inputFile_as_string(file, lista):
 def main():
     x = 0
     while (x==0):
-        txt="\tFájl kezelés\n\tMinden fájl kezelés\n\tMelyiket választja?[f/m]: "
+        txt="\n\tFájl kezelés\n\tMinden fájl kezelés\n\tMelyiket választja?[f/m]: "
         melyik=input(txt)
        
         y=0   
@@ -55,7 +55,7 @@ def main():
                     print("\tNem értem\n")
 ####################################################################################################
             elif(melyik=="m"):
-                txt2="\tMinden fájlban:\n\t-Keresés\n\t-Mindegyik\n\t-Legnagyobb\n\t-legkisebb\n\t-Átlag\n\tMelyiket választja?[keres/mind/max/min/atlag]:"
+                txt2="\tMinden fájlban:\n\t-Keresés\n\t-Mindegyik\n\t-Legnagyobb\n\t-legkisebb\n\t-Átlag\n\tMelyiket választja?[keres/mind/max/min/atlag]: "
                 válasz=input(txt2)
 
                 if(válasz=="keres"):
@@ -79,7 +79,7 @@ def main():
                     print("\tNem értem\n")
 
             else:
-                print("\tNem értem\n")
+                print("\tNem értem")
                 y=1     
 
         if(melyik=="vissza"):

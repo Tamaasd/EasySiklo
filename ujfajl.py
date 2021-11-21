@@ -19,6 +19,6 @@ def creat_newf():
             open(uj_fajl_nev, 'a').close()
             print("\tFájl létrehozva")
             break
-    input("\n\tMenübe való vissza téréshez nyomj Entert!\n")
+    input("\n\tMenübe való vissza téréshez nyomjon Entert!\n")
 
 #creat_newf()   
